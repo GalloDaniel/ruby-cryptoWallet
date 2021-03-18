@@ -1,0 +1,7 @@
+<div class="row" style="justify-content: center">
+  <div class="col-sm" style="max-width: 600px;">
+    <h1><%= t("new.mining_type") %></h1>
+    <%= render 'form', mining_type: @mining_type %>
+    <%= link_to t('links.back'), mining_types_path, class: "btn btn-primary" %>
+  </div>
+</div>
